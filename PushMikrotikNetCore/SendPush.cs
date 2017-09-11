@@ -42,7 +42,7 @@ namespace PushMikrotik
             var router = new MikrotikAPI(); // router ip 
             try
             {
-                if (!router.Login("userAPI", "QuomoPro489!#!#"))
+                if (!router.Login("username", "password"))
                 {
                     Console.WriteLine("Could not log in");
                     router.Close();
